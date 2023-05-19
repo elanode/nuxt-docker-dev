@@ -11,4 +11,4 @@ ENV HOST=0.0.0.0
 RUN npm config set fetch-retries 5
 
 # Init command
-CMD ["sh", "-c", "npm run dev"]
+CMD ["sh", "-c", "npm install; npm run dev"]
