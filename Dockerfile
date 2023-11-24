@@ -1,5 +1,5 @@
 # Image
-FROM node:18.16-alpine
+FROM node:18.18.2-alpine
 RUN apk add g++ make python3
 
 # Set up work directory
